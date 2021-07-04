@@ -13,7 +13,7 @@ class Pessoa {
     }*/
 
     //Criando um construtor
-    constructor()
+    constructor() //Tipo de construtor SECUNDÁRIO
 
     fun pessoaInfo() = "Seu nome é $nome $sobrenome, inscrito no CPF número: $cpf"
 }
