@@ -5,6 +5,8 @@ import one.digitalinnovation.digionebank.Funcionario
 import one.digitalinnovation.digionebank.Gerente
 
 fun main() {
-    val fabio = Gerente ( "Fabio Henrique", "1234567899", 3000.0)
+    val fabio = Gerente ( "Fabio Henrique", "1234567899", 3000.0, "senha123")
     imprimeRelatorioFuncionario.imprimir(fabio)
+
+    TesteAutenticacao().autentica(fabio)
 }
